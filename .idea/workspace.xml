@@ -59,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSpanSumBinary.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestSpanSumBinary.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/LongestSpanSumBinary.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40482953" vertical-offset="0" max-vertical-offset="704">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
               <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubArrayLeastAvg.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/SubArrayLeastAvg.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5080214" vertical-offset="0" max-vertical-offset="561">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,6 +88,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/LargestPrimeFactor.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/LargestPalindromeProduct.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/LongestSpanSumBinary.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SubarrayLeastAvg.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/SubArrayLeastAvg.scala" />
       </list>
     </option>
   </component>
@@ -207,7 +219,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.LongestSpanSumBinary">
+  <component name="RunManager" selected="Application.SubArrayLeastAvg">
     <configuration default="false" name="EvenFibonacciNumbers" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="EvenFibonacciNumbers" />
@@ -268,6 +280,23 @@
     <configuration default="false" name="LongestSpanSumBinary" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="LongestSpanSumBinary" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="eulerproblems" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SubArrayLeastAvg" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SubArrayLeastAvg" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -745,18 +774,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.EvenFibonacciNumbers" />
       <item index="1" class="java.lang.String" itemvalue="Application.LargestPrimeFactor" />
       <item index="2" class="java.lang.String" itemvalue="Application.LargestPalindromeProduct" />
       <item index="3" class="java.lang.String" itemvalue="Application.LongestSpanSumBinary" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SubArrayLeastAvg" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongestSpanSumBinary" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LargestPalindromeProduct" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LargestPrimeFactor" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EvenFibonacciNumbers" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.SubArrayLeastAvg" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongestSpanSumBinary" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LargestPalindromeProduct" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LargestPrimeFactor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.EvenFibonacciNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -818,16 +849,16 @@
       <updated>1453443535665</updated>
       <workItem from="1453443540318" duration="5029000" />
       <workItem from="1453628282892" duration="714000" />
-      <workItem from="1454268227140" duration="1187000" />
+      <workItem from="1454268227140" duration="2402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6930000" />
+    <option name="totallyTimeSpent" value="8145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -851,7 +882,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19535519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19535519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -958,8 +989,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/LongestSpanSumBinary.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40482953" vertical-offset="0" max-vertical-offset="704">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SubArrayLeastAvg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5080214" vertical-offset="0" max-vertical-offset="561">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
